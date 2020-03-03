@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#header
+{
+    background-color: rgba(10, 10, 25, 0.8);
+    box-sizing: border-box;
+}
+
+#titleleft
+{
+    text-align: center;
+    background-color: inherit;
+    color: #ffeeaa;
+    height: 170px;
+    /* margin: 0px; */
+    box-sizing: border-box;
+}
+#titleright
+{
+    text-align: right;
+    background-color: inherit;
+    height: 170px;
+    /* margin: 0px; */
+    box-sizing: border-box;
+}
+
+
+/* Tab */
+.tab{
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the navButtons */
+.tab button{
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.4s;
+}
+.tab button:hover{
+    background-color: rgb(83, 98, 139);
+}
+.tab button.active{
+    background-color: rgb(10, 15, 50);
+}
+
+.tabcontent{
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+
+/* .navigationbar
+{
+    height: 40px;
+    margin: 5px;
+}
+.navigationbar>div>a{
+    text-decoration: none;
+    width: 100%;
+    color: inherit;
+    display: block;
+} */
+
+.topnav
+{
+    line-height: 2em;
+    list-style: none;
+    text-align: right;
+    font-weight: bold;
+    font-variant: small-caps;
+    color: #ffeeaa;
+    box-sizing: border-box;
+}
+
+/* .navtab
+{
+    background-color: inherit;
+    border-radius: 0.2em;
+    color: #000030;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.navtab:hover
+{
+    border: 3px solid #000030;
+    background-color: #ffeeaa;
+    color: #ff2a2a;
+    
+} */
+
+#shop
+{
+    color: #ff0000;
+    background-color: #000010;
+    border: 2px solid #000030;
+}
+
+
+
+
+
+
+
+
+
+
+
+

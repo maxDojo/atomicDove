@@ -1,0 +1,59 @@
+
+<!-- <script>
+function army() {
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function() {
+            if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                document.getElementById("maincontent").innerHTML = xmlhttp.responseText;
+            }
+        };
+        xmlhttp.open("GET", "./military/army", true);
+        xmlhttp.send();
+}
+
+console.log('Hello from the ajax file');</script> -->
+
+
+<div class="container-fluid">
+    <div class="row">
+        
+        <div class="col-md-1">
+            <!-- //Quick Links go here -->
+            <h1>
+                
+            </h1>
+        </div>
+        
+        <div class="col-md-11">
+        <div class="row" id="maincontent">
+            <div class="col-md-6">
+                <div class="jumbotron" id="army_button" onclick="openTile('military', 'army')">
+                    <img class="military_tile" src="/images/army_tile.jpg">
+                    <h5>Army</h5>
+                    <%= page.player.email %>
+                </div>
+            </div>
+        <div class="col-md-6">
+            <div class="jumbotron" id="navy_button">
+                <img src="/images/navy_tile.jpg" alt="" class="military_tile">
+                <h5>Navy</h5>
+            </div>
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="jumbotron" id="airforce_button">
+                    <img src="/images/airforce_tile.jpg" alt="" class="military_tile">
+                    <h5>Airforce</h5>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="jumbotron" id="rd_button">
+                    <img src="/images/rd_tile.jpg" alt="" class="military_tile">
+                    <h5>R&D</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div> 
+</div>

@@ -1,0 +1,47 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body
+{
+    box-sizing: border-box;
+    background-color: #000030;
+    background-image: url('../images/dashbg.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #000010;
+    font-weight: bold;
+}
+a:hover
+{
+    color: #ff0000;
+}
+
+
+li.side
+{
+    font-weight: bold;
+    list-style: none;
+    line-height: 1.5em;
+}
+li.sideright:hover
+{
+    color: #ff2a2a;
+    cursor: pointer;
+}
+
+h6{
+    font-weight: bold;
+    font-size: 2em;
+    display: block;
+    background-color: #66ff66;
+    border: 1px solid #000030;
+}
+
+

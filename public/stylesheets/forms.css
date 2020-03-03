@@ -1,0 +1,180 @@
+/*LOGIN FORM START*/
+.login-button{
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  top: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+.login-popup{
+    position: relative;
+    display: none;
+    position: fixed;
+    height: 350px;
+    width: 280px;
+    top: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+animation: fadeIn 1s ease-in;
+}
+@keyframes fadeIn{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+.login-container{
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+.login-container input[type=email], .login-container input[type=password]{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+.login-container input[type=text]:focus, .login-container input[type=password]:focus{
+  background-color: #ddd;
+  outline: none;
+}
+
+.login-container .login{
+background-color: #4caf50;
+color: white;
+padding: 16px 20px;
+border: none;
+cursor: pointer;
+width: 100%;
+margin-bottom: 10px;
+opacity: 0.8;
+}
+
+.login-container .cancel{
+  background-color: red;
+}
+.login-container .login:hover, .open-button:hover{
+  opacity: 1;
+}
+
+/* END LOGIN FORM */
+
+
+
+input.btn-primary
+{
+    color: #ffeeaa;
+    background-color: green;
+    /* border: 2px solid #000010; */
+    font-variant: small-caps;
+    font-weight: bold;
+    width: 50%;
+}
+
+/* #register_form>div>label
+{
+    font-weight: bold;
+    color: #000010;
+    font-variant: small-caps;
+    display: block;
+}
+#register_form>div>input
+{
+    background-color: rgba(100, 100, 150, 0.5);
+    border-radius: 2em;
+    color: #ffeeaa;
+    width: 70%;
+    padding: .25em 15em .25em 15em;
+} */
+
+/* START REGISTER FORM */
+
+#regForm {
+    background-color: rgba(100, 200, 100, 0.5);
+    /* text-align: center; */
+    color: #000010;
+    margin: 100px auto;
+    padding: 40px;
+    width: 70%;
+    min-width: 300px;
+    border-radius: 5em;
+}
+#regForm div input
+{
+    background-color: rgba(100, 100, 150, 0.5);
+    border: 1px solid #008000;
+    border-radius: 2em;
+    color: #ffeeaa;
+    width: 70%;
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+}
+/* Mark input boxes that gets an error on validation: */
+.invalid {
+    background-color: rgb(255, 200, 200);
+    background-color: rgba(255, 150, 150, 0.7);
+}
+
+
+
+/* Hide all steps by default: */
+.register-tab {
+  display: none;
+}
+.register-tab p{
+    width: 100%;
+    margin: 1em;
+    padding: auto 3em;
+    display: block;
+}
+.register-tab p input{
+    padding: 10px 0;
+    width: 80%;
+    text-align: center;
+    font-size: 17px;
+    border: 1px solid #55ff55;
+    border-radius: .3em;
+    padding: .5em 2em;
+    font-weight: bold;
+}
+.register-tab input:focus{
+    border: 1px dashed #11ff11;
+}
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #242424;
+  border: none;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+/* Mark the active step: */
+.step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: rgb(0, 255, 8);
+}
+
+
+/* END REGISTER FORM */

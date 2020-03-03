@@ -1,0 +1,238 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* LOADER */
+.loader{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #0e588e;
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    animation: spin 2s linear infinite;
+    display: none;
+    z-index: 1;
+    margin-top: -80px;
+    margin-left: -80px;
+    /* position: fixed; */
+  }
+  
+  @keyframes spin{
+    0% {
+      transform: rotate(0deg);
+    }
+    100%{
+      transform: rotate(360deg);
+    }
+  }
+
+  /* END LOADER */
+
+/* 404 STYLE */
+#oops{
+    background-color: #d4cb4c;
+    padding: 25% 0 0 10%;
+    /* font-family: sans-serif; */
+    font-variant: small-caps;
+    color: #02021a;
+    text-align: center;
+}
+#oops h1{
+    font-weight: bold;
+    font-size: 5em;
+    color: #c01b1b;
+    letter-spacing: .2em;
+}
+#oops h3{
+    font: bold 2em black;
+    letter-spacing: .2em;
+}
+#oops p{
+    line-height: 1em;
+    font-weight: bold;
+}
+#oops button{
+    font-variant: small-caps;
+    background-color: blue;
+    height: 3em;
+    font-size: 2em;
+    font-weight: bold;
+    vertical-align: middle;
+    /* padding: 2em 1em; */
+    border-radius: .6em;
+    text-align: center;
+    margin: 1.2em;
+}
+
+/* 
+MILITARY
+*/
+
+
+.military_tile
+{
+    /* max-height: 200px; */
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 3em;
+    box-sizing: border-box;
+}
+
+#army_button
+{
+    background-color: rgba(50, 0, 0, 0.2);
+    position: relative;
+    height: 250px;
+    border-radius: 3em;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#army_button:hover{
+    border: 2px dashed #fff;
+    cursor: pointer;
+    box-sizing: border-box;
+    }
+    #army_button>h5
+    {
+        color: #fff;
+        font-size: 2em;
+        position: absolute;
+        bottom: .5em;
+        right: 4em;
+        font-variant: small-caps;
+        box-sizing: border-box;
+    }
+    
+    #navy_button
+    {
+        background-color: darkblue;
+        position: relative;
+        height: 250px;
+        border-radius: 3em;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    #navy_button:hover{
+        border: 2px dashed #fff;
+        cursor: pointer;
+        box-sizing: border-box;
+    }
+    #navy_button>h5
+    {
+        color: #fff;
+        font-size: 2em;
+        position: absolute;
+        bottom: .5em;
+        right: 4em;
+        font-variant: small-caps;
+        box-sizing: border-box;
+    }
+
+    #airforce_button
+{
+    background-color: skyblue;
+    position: relative;
+    height: 250px;
+    border-radius: 3em;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#airforce_button:hover{
+    border: 2px dashed #fff;
+    cursor: pointer;
+    box-sizing: border-box;
+    }
+    #airforce_button>h5
+    {
+        color: #40f;
+        font-size: 2em;
+        position: absolute;
+        bottom: .5em;
+        right: 4em;
+        font-variant: small-caps;
+        box-sizing: border-box;
+    }
+
+#rd_button
+{
+    background-color: green;
+    position: relative;
+    height: 250px;
+    border-radius: 3em;
+    padding: 0px;
+    box-sizing: border-box;
+}
+    #rd_button:hover{
+        border: 2px dashed #fff;
+        cursor: pointer;
+        box-sizing: border-box;
+    }
+    #rd_button>h5
+    {
+        color: #fff;
+        font-size: 2em;
+        position: absolute;
+        bottom: .5em;
+        right: 4em;
+        font-variant: small-caps;
+        box-sizing: border-box;
+    }
+
+    
+
+
+
+
+
+        .infosheet
+    {
+        color: #40f;
+        background-color: rgba(26, 129, 90, 0.5);
+        /* border: 2px double #555; */
+        width: 100%;
+        box-sizing: border-box;
+        margin: 2em;
+        padding: 3em;
+        border-radius: 2em;
+    }
+    .infosheet>h4{
+        color: #000030;
+        font-variant: small-caps;
+        font-weight: bold;
+        font-size: 1.8em;   
+    }
+
+    .infoitem
+    {
+        font-size: .8em;
+        background-color: rgb(26, 129, 90);
+        padding: 1em;
+        border-radius: .4em;
+        margin: 1em;;
+    }
+
+    .infoitem>div>h5{
+        font-variant: small-caps;
+        background-color: #000030;
+        text-align: center;
+        padding: .2em .5em .2em .5em;
+        border-radius: .4em .4em 0em 0em;
+        margin-bottom: 0em;
+        color: #fff;
+    }
+    .infoitem>div>li{
+        font-variant: small-caps;
+        margin-top: 0em;
+        list-style-type: square;
+        text-align: center;
+        background-color: #ffeeaa;
+        /* border-radius: 0em 0em .2em .2em; */
+        padding-left: .5em;
+        padding-right: .5em;
+        word-wrap: break-word;
+    }
+

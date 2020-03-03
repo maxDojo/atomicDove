@@ -1,0 +1,59 @@
+<% include partials/home_header %>
+<!-- <div class="topright">
+    <ul>
+            <li class="side">Atomic News</li>
+            <li class="side">How to play</li>
+            <li class="side"></li>
+            <li class="side"></li>
+            <li class="side"></li>
+        </ul>
+    </div> -->
+
+    <!-- <div class="bottomright">
+        <li>Content Goes Here</li>
+        <li>Content Goes Here</li>
+        <li>Content Goes Here</li>
+        <li>Content Goes Here</li>
+        <li>Content Goes Here</li>
+    </div> -->
+
+    <div id="main">
+        <h1>atomic Dove &trade;</h1>
+
+        <br>
+        <br>
+        <br>
+        <button onclick="openLogin('logindiv')" class="login-button">Login</button>
+        
+        
+        
+    </div>
+    <div id="footer">
+        <p>copyright theDojo&copy; 2019. All rights reserved.</p>
+    </div>
+            <div id="logindiv" class="login-popup">
+                <div class="loader"></div>
+                <form action="/login" role="form" method="post" class="login-container">
+                                            
+                        <label for="login_email"><b>Email</b></label>
+                        <input type="email" name="login_email" required value="dojo@dojo.com">
+                        
+                        <label for="login_pass"><b>Password</b></label>
+                        <input type="password" name="login_pass" required value="dojo">
+                        
+                        <button type = "button" onclick="login()">Login</button>
+                            <h6 id="error_display"></h6>
+                            
+                        <label>
+                            <input type="checkbox" name="remember">Remember me
+                        </label>
+                        
+                    <div class="container" style="background-color: #f1f1f1;">
+                        <button class="login" type="button" onclick="login()">Login</button>
+                        <span class="forgotpsw">Forgot <a href="">password?</a></span>
+                        <button class="login cancel" type="button" onclick="closeLogin()">Cancel</button>
+                        <p>No Account? <a href="register">Start New Game now!</a></p>
+                    </div>
+                </form>
+            </div>
+    <% include partials/footer %>
